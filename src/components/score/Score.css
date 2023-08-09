@@ -1,0 +1,115 @@
+.score_container{
+    background: #104F78;
+    height: 100vh;
+    padding-top: 100px;
+}
+.results {
+  background-color: #fff;
+  width: 575px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+.congratulations {
+  padding: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1ea55b;
+}
+.result-info {
+  margin: 0 auto 40px auto;
+  font-size: 18px;
+}
+.result-info span {
+  font-weight: bold;
+  font-size: 20px;
+}
+.all_questions_status {
+  width: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+  place-items: center;
+  margin: 0 auto;
+}
+.questins_status{
+  border-radius: 50%;
+  color: black;
+  display: flex;
+  font-weight: bold;
+  height: 33px;
+  justify-content: center;
+  width: 33px;
+}
+.unattempted {
+  align-items: center;
+  background: white;
+  border: 2px solid #4b87af;
+  
+}
+.correct {
+  align-items: center;
+  background: rgb(236 252 203);
+  /* border: 2px solid rgb(132 204 22); */
+  border: 2px solid rgb(102, 155, 23);
+  border-radius: 50%;
+  color: black;
+}
+.incorrect {
+  align-items: center;
+  background: rgb(254 202 202);
+  border: 2px solid rgb(248 113 113);
+}
+.score_page_btn{
+    align-items: center;
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    margin-top: 40px;
+    /* margin: 40px auto 0 auto; */
+}
+.exit_btn{
+    color: #0094da;
+    background: white;
+    border: 1px solid #0094da;
+    border-radius: 5px;
+  /* margin: 40px auto 0 auto; */
+    padding: 7px 0;
+    width: 100px;
+    cursor: pointer;
+  font-size: 18px;
+}
+.exit_btn:hover{
+    background: #057fb8;
+    color: #fff;
+}
+.restart_button {
+  background: #0094da;
+  color: #fff;
+  width: 100px;
+  padding: 7px 0;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  /* margin: 40px auto 0 auto; */
+  cursor: pointer;
+  font-size: 18px;
+}
+.restart_button:hover{
+    background: #057fb8;
+}
+
+
+/* Media Query */
+
+@media screen and (min-width: 340px) and (max-width:700px){
+  .results{
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width:340px){
+  .results{
+    width: 380px;
+  }
+}
